@@ -1,3 +1,5 @@
 #!/bin/bash
 
-stat /root/my-new-file
+if [[ ! -e /root/my-new-file ]]; then
+  echo "File does not exist"
+fi
