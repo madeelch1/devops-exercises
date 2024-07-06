@@ -1,9 +1,16 @@
-Now we create the file
+Create a new file `/etc/my-second-file` with content `amazing`
+
+<br>
+
+### Solution
+We can use the command `echo`:
 
 ```plain
-rm my-new-file
+echo amazing > /etc/my-second-file
 ```{{exec}}
 
+And to verify we can run
+
 ```plain
-ls
+cat /etc/my-second-file
 ```{{exec}}
