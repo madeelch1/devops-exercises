@@ -1,14 +1,8 @@
-cd ~
+ls /var/dont-need-this.png
 ```{{exec}}
 
-We can list the current directory using
+Now to delete we run
 
 ```plain
-pwd
-```{{exec}}
-
-Now we create the file
-
-```plain
-touch my-new-file
+rm /var/dont-need-this.png
 ```{{exec}}
